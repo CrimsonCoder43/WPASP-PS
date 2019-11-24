@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Sajt.Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="css/style.css" rel="stylesheet"/>
+    <script src="script/scrollsaver.js"></script>
+    <script src="script/jquery-3.2.1.min.js"></script>
+    <script src="script/script.js"></script>
+    <link rel="shortcut icon" href="img/general/favicon.ico"/>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Bogdan Matorkić"/>
+    <meta name="description" content="Online Pizza Shop Administrator"/>
+    <title>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapper">
+	    <div id="nav_bar">
+		    <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+	    </div>
+	    <div class="center">
+        <div id="void"></div>
+        <div id="admin">
+        <asp:ContentPlaceHolder ID="first" runat="server">
+
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="second" runat="server">
+
+        </asp:ContentPlaceHolder>
+        </div>
+        <div class="clear"></div>
+        </div>
+	    <div id="footer">
+	        <asp:PlaceHolder ID="PlaceHolder2" runat="server"></asp:PlaceHolder>
+		    <p>Copyright &copy; Bogdan Matorkić 2017, PIZZA SHOP, www.pizzashop.comop.comop.comop.com</p>
+	    </div>
+    </div>
+    </form>
+</body>
+</html>

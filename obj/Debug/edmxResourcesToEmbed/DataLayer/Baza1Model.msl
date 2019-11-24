@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Baza1ModelStoreContainer" CdmEntityContainer="Baza1Entities">
+    <EntitySetMapping Name="admins">
+      <EntityTypeMapping TypeName="Baza1Model.admin">
+        <MappingFragment StoreEntitySet="admin">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="AdminDelete" FunctionName="Baza1Model.Store.AdminDelete" />
+    <FunctionImportMapping FunctionImportName="AdminInsert" FunctionName="Baza1Model.Store.AdminInsert" />
+    <FunctionImportMapping FunctionImportName="AdminUpdate" FunctionName="Baza1Model.Store.AdminUpdate" />
+  </EntityContainerMapping>
+</Mapping>

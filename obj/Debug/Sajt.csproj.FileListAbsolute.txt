@@ -1,0 +1,16 @@
+c:\users\bogda\documents\visual studio 2013\Projects\Sajt\Sajt\bin\Sajt.dll.config
+c:\users\bogda\documents\visual studio 2013\Projects\Sajt\Sajt\bin\Sajt.dll
+c:\users\bogda\documents\visual studio 2013\Projects\Sajt\Sajt\bin\Sajt.pdb
+c:\users\bogda\documents\visual studio 2013\Projects\Sajt\Sajt\obj\Debug\Sajt.csprojResolveAssemblyReference.cache
+c:\users\bogda\documents\visual studio 2013\Projects\Sajt\Sajt\obj\Debug\Sajt.dll
+c:\users\bogda\documents\visual studio 2013\Projects\Sajt\Sajt\obj\Debug\Sajt.pdb
+C:\Users\bogda\Documents\Visual Studio 2013\Projects\Sajt\Sajt\bin\EntityFramework.dll
+C:\Users\bogda\Documents\Visual Studio 2013\Projects\Sajt\Sajt\bin\EntityFramework.xml
+D:\Development\ICT\III\Web programiranje - ASP\Sajt\Sajt\bin\Sajt.dll.config
+D:\Development\ICT\III\Web programiranje - ASP\Sajt\Sajt\bin\Sajt.dll
+D:\Development\ICT\III\Web programiranje - ASP\Sajt\Sajt\bin\Sajt.pdb
+D:\Development\ICT\III\Web programiranje - ASP\Sajt\Sajt\bin\EntityFramework.dll
+D:\Development\ICT\III\Web programiranje - ASP\Sajt\Sajt\bin\EntityFramework.xml
+D:\Development\ICT\III\Web programiranje - ASP\Sajt\Sajt\obj\Debug\Sajt.csprojResolveAssemblyReference.cache
+D:\Development\ICT\III\Web programiranje - ASP\Sajt\Sajt\obj\Debug\Sajt.dll
+D:\Development\ICT\III\Web programiranje - ASP\Sajt\Sajt\obj\Debug\Sajt.pdb

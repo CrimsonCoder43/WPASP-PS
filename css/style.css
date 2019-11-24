@@ -1,0 +1,292 @@
+*
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+body
+{
+	font-family: "Corbel";
+	background-image: url("../img/general/background.jpg");
+	color: #262626;
+}
+
+#wrapper
+{
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+	border: 1px solid #262626;
+}
+
+#nav_bar
+{
+    position: fixed;
+    top: 0;
+	margin: 0 auto;
+	width: 1000px;
+	height: 50px;
+	background-color: #262626;
+    box-shadow: 0px 5px 5px black;
+}
+
+#nav_bar ul
+{
+	padding: 10px;
+	list-style: none;
+}
+
+#nav_bar ul li
+{
+	margin-left: 125px;
+	display: inline;
+}
+
+#nav_bar ul li a
+{
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+	cursor: pointer;
+}
+
+#nav_bar ul li a:hover
+{
+	color: grey;
+}
+
+#header
+{
+    margin-top: 49px;
+	width: 100%;
+	height: 300px;
+	background-image: url("../img/general/header_home.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+	border-bottom: 1px solid #262626;
+}
+
+.center
+{
+	margin: 0 auto;
+	padding: 25px;
+	width: 950px;
+	min-height: 250px;
+	background-color: white;
+	color: #262626;
+	text-align: center;
+}
+
+#menu
+{
+    margin: 0px -25px -25px -25px;
+    width: 1000px;
+    height: 500px;
+	color: #262626;
+	text-align: center;
+    overflow: scroll;
+}
+
+#void
+{
+    height: 50px;
+}
+
+#admin
+{
+    margin: 0 auto;
+    width: 950px;
+    height: 800px;
+    background-color: white;
+	color: #262626;
+	text-align: center;
+}
+
+.button
+{
+    background-color: khaki;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover
+{
+    background-color: darkkhaki;
+}
+
+#main
+{
+    margin: 0 auto;
+	padding: 25px;
+	width: 950px;
+	min-height: 150px;
+	background-color: #262626;
+	color: white;
+	text-align: center;
+}
+
+#grid
+{
+    margin: 0 auto;
+    padding: 25px;
+    width: 900px;
+}
+
+.cover
+{
+    float: left;
+    padding-left: 123px;
+    width: 300px;
+    height: 300px;
+    display: none;
+}
+
+.cover_txt
+{
+    float: right;
+    padding-right: 123px;
+    width: 300px;
+    height: 300px;
+    display: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+#thumbHolder
+{
+    width: 900px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.thumb
+{
+    margin-left: 73px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    cursor: pointer;
+}
+
+.thumb:hover
+{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#slider
+{
+    margin: auto;
+    position: relative;
+    max-width: 1000px;
+  
+}
+
+.slide
+{
+    display: none;
+}
+
+.fade
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade
+{
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade
+{
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#pic
+{
+    padding-left: 123px;
+}
+
+#txt
+{
+    float: right;
+    padding-right: 123px;
+    width: 300px;
+    text-align: center;
+}
+
+.social
+{
+    float: left;
+    margin-left: 180px;
+}
+
+hr
+{
+	margin: 0 auto;
+	width: 75%;
+}
+
+.clear
+{
+	clear: both;
+}
+
+#footer
+{
+	margin: 0 auto;
+	width: 100%;
+	height: 70px;
+	background-color: #262626;
+	color: white;
+	text-align: center;
+}
+
+#footer ul
+{
+	padding: 10px;
+	list-style: none;
+}
+
+#footer ul li
+{
+	padding: 0px 75px 0px 75px;
+	display: inline;
+}
+
+#footer ul li a
+{
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+	cursor: pointer;
+}
+
+#footer ul li a:hover
+{
+	color: grey;
+}
+
+#RadioButtonList1 td
+{
+    width: 100px;
+}
