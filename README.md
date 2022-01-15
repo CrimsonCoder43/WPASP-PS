@@ -1,5 +1,5 @@
 # WPASP-PS
-App from course Web Programming - ASP in ICT 
+App from ICT Web Programming - ASP course 
 
 TO DO:
 
